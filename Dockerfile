@@ -36,7 +36,7 @@ RUN apt-get -qq install -y git curl cron
 
 # for debugging, TODO Remove
 RUN echo >&2 "*******************" && echo >&2 "Installing text editor and netcat for debugging, remove @ production version."
-RUN apt-get -qq install -y emacs netcat
+RUN apt-get -qq install -y vim netcat
 
   
 # Make and define working directory.

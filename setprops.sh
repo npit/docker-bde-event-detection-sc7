@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 arg="$1"
-editor="nano"
+editor="vim"
 
 # property files to modify
 paths="$BDE_ROOT_DIR/BDEEventDetection/BDEClustering/res/clustering.properties"

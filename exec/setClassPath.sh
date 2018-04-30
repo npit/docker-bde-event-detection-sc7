@@ -4,7 +4,7 @@
 # filter out specific conflicting jars
 echo
 echo ">Setting the classpath. ($0)"
-conflictingJars="httpcore-4.1.2.jar httpclient-4.1.2.jar cassandra-driver-core-2.1.7.1.jar guava-14.0.1.jar"
+conflictingJars="httpcore-4.1.2.jar httpclient-4.1.2.jar cassandra-driver-core-2.1.7.1.jar guava-14.0.1.jar google-collections"
 conflictingJars+=" jersey-server-1.9.jar"
 
 find / -name *.jar  > temp

@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-editor="nano"
+editor="vim"
 
 paths="$BDE_ROOT_DIR/BDEEventDetection/BDETwitterListener/res/twitter.queries"
 paths+=" $BDE_ROOT_DIR/BDEEventDetection/BDETwitterListener/res/twitter.accounts"
